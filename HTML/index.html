@@ -49,7 +49,12 @@
                 <p class="lead mb-4">A Passionate <span class="text-info">Web Developer </span>&<span
                         class="text-info">Trainer</span>
                 </p>
-                <button class="btn btn-warning btn-lg mt-3 shadow">Hire Me</button>
+                <a href = "#contact"> <button class="btn btn-warning btn-lg mt-3 shadow">
+                    Connect with Me
+                </button>
+                </a>
+            
+               
             </div>
         </div>
 
@@ -243,6 +248,28 @@
             </div>
         </div>
     </section>
+
+
+    <!-- contact section -->
+     <section class="contact-section" id="contact">
+        <h2>Contact Me</h2>
+        <form id = "contactForm">
+            <label for = "name">Full Name: </label>
+            <input type = "text" id = "name" placeholder="Enter your Name">
+            <p class = "error" id="nameError"></p>
+
+            <label for = "email">Email: </label>
+            <input type = "email" id = "email" placeholder="Enter your EmailID">
+            <p class = "error" id="emailError"></p>
+
+            <label for = "message">Message: </label>
+            <input type = "text" id = "message" placeholder="Enter your Message">
+            <p class = "error" id="messageError"></p>
+
+            <button type = "submit">Send Message</button>
+            <p class = "success" id="successMsg"></p>
+        </form>
+     </section>
 
 
     <!-- Bootstrap CDN -->

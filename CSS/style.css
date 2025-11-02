@@ -285,3 +285,63 @@ body {
     text-align: center;
     padding: 15px;
 }
+
+
+/* form styling */
+
+.contact-section {
+    max-width: 600px;
+    background: linear-gradient(135deg ,  #dfe1e6 , #dfd9d9);
+    margin: 50px auto;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10x rgba(0 , 0, 0,0.1);
+
+}
+
+.contact-section h2 {
+    text-align: center;
+    color: teal;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+
+}
+
+textarea {
+    resize: none;
+}
+
+ button {
+    background-color: teal;
+    color: white;
+    padding:10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+ }
+
+ button :hover{
+    background-color: #006666;
+
+ }
+
+ .error {
+    color:red;
+    font-size: 14px;
+    margin-top: 3px;
+ }
+
+  .success {
+    color:rgb(94, 172, 91);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 3px;
+ }
